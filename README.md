@@ -1,4 +1,4 @@
-# systems programing - 2  first assignment 
+# systems programing 2  first assignment - ADT
 
 ## Description
 This is the first task in Systems Programing - 2 course.
