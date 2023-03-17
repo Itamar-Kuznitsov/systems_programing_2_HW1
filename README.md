@@ -28,4 +28,4 @@ Made by
 
 ## Version
 * 0.1
-  * Initial release ~ Jan 2023
+  * Initial release ~ March 2023
