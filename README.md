@@ -1,46 +1,31 @@
-<div dir="rtl" lang="he">
+# systems programing - 2  first assignment 
 
-# ADT
-במטלה זו תממשו מערך אדפטיבי כללי בשפת C. 
-מערך אדפטיבי הינו מערך שמשנה את גודלו כך שכל פנייה לאינדק אי שלילי היא תקינה. כאשר פונים לאינדקס בו לא הושם ערך אז מוחזר NULL
+## Description
+This is the first task in Systems Programing - 2 course.
 
-תיאור אופן הפעולה המלא נמצא בקובץ ה
-[ADT_definition.pdf](ADT_definition.pdf) 
-המצורף.
+This task was written in C and include Makefile for compiling.
 
-שימו לב אין כל מידע מקדים על סוג המבנים שיכנסו למערך. בתוכנית הדמו יש שימוש בשני מבנים שונים. אין לשנות את הקבציים הקיימים פרט לקובץ הAdptArray.c
+The main subject of this task is ADT programing in c.
 
-כדי לראות איך ,תוכנית אמורה לעבוד, ראו בקובץ
-[Demo.c](Demo.c)
-המצורף.
+I build an adaptive array using ADT architecture.
 
- עליכם לכתוב את הקבצים הדרושים כך שהפקודות הבאות יעבדו ללא שגיאות קימפול, זמן ריצה או דליפות זיכרון.:
 
-<div dir='ltr'>
+## Executing program
+Download the files to your local machine
 
-    make demo
+run the program by:
+```
+	make demo
 	make run
-    make mem_test
+    	make mem_test (optional for Valgrind)
+```
 
-</div>
 
-עליכם לכתוב את  הקבצים הבאים:
+## Authors
+Made by
 
-* AdptArray.c - מימוש הפונקציות הנדרשות. 
+* [Itamar Kuznitsov](https://github.com/Itamar-Kuznitsov)
 
-שימו לב:
-אין לשנות קבצים קיימים, אלא רק להוסיף קבצים חדשים.
-מערכת הבדיקה האוטומטית מעתיקה מחדש את כל הקבצים הקיימים על-גבי הפתרון שאתם מגישים,
-ולכן כל שינוי שתעשו בקבצים הקיימים יימחק.
-
-ההגשה תתבצעה בגיט. בדיוק כמו בתכנות מערכות א.
-עליכם להגיש קובץ טקסט שמכיל 3 שורות.
-
-לינק לריפוזיטורי
-	
-מזהה הקומיט
-	
-תעודת זהות
-	
-
-</div>
+## Version
+* 0.1
+  * Initial release ~ Jan 2023
